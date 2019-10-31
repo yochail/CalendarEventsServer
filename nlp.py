@@ -2,6 +2,7 @@
 import re
 from typing import List, Tuple
 import spacy
+import en_core_web_lg
 
 
 class NER_LABELS():
@@ -25,7 +26,7 @@ class NER_LABELS():
 	CARDINAL = "CARDINAL" #Numerals that do not fall under another type.
 
 
-model = spacy.load('en_core_web_lg')
+model = en_core_web_lg.load()
 quotes_re = r"(\n.*[<>]).*|(\n>.*)"
 
 def extract_ner(json_obj:dict) ->  List[Tuple[str,str]]:
