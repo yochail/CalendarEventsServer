@@ -1,7 +1,6 @@
 
 import re
 from typing import List, Tuple
-import spacy
 import en_core_web_sm
 
 
