@@ -55,7 +55,7 @@ class event():
 	def __init__(self):
 		self.title = "New Event"
 		self.start_date = dt.now()
-		self.end_date = dt.now() + datetime.timedelta(minutes=30)
+		self.end_date = dt.now() + timedelta(minutes=30)
 		self.location = ""
 		self.details = ""
 
