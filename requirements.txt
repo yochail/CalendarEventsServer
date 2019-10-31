@@ -2,4 +2,4 @@ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0
 Flask==1.1.1
 Flask-Cors==3.0.8
 spacy==2.1.8
-gunicorn
+gunicorn==19.9.0
