@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a819bb0-bec9-487d-8874-2e05a0b8ebd2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -150,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572534581913</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gunicorn">
+      <created>1572534970959</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572534970959</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +174,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="corn ver" />
-    <option name="LAST_COMMIT_MESSAGE" value="corn ver" />
+    <MESSAGE value="gunicorn" />
+    <option name="LAST_COMMIT_MESSAGE" value="gunicorn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
