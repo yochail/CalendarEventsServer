@@ -1,4 +1,4 @@
-en-core-web-lg==2.1.0
+en-core-web-lg
 Flask==1.1.1
 Flask-Cors==3.0.8
 spacy==2.1.8
