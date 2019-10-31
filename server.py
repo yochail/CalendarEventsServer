@@ -3,7 +3,6 @@ from flask_cors import CORS
 
 from events import event as ev
 from nlp import extract_ner
-
 app = Flask(__name__)
 CORS(app)
 @app.route('/parse_text',methods=['POST'])

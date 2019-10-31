@@ -1,6 +1,4 @@
 from datetime import datetime as dt, timedelta
-
-import dateparser
 from dateparser import search
 
 from nlp import *

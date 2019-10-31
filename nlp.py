@@ -1,13 +1,8 @@
-import datetime
-import itertools
-import re
-from time import strftime
-from typing import List, Tuple
 
+import re
+from typing import List, Tuple
 import spacy
-from dateutil import parser
-import en_core_web_lg
-from spacy.tokens.span import Span
+
 
 class NER_LABELS():
 	PERSON = "PERSON" #People, including fictional.
