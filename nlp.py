@@ -4,6 +4,7 @@ import re
 from time import strftime
 from typing import List, Tuple
 
+import spacy
 from dateutil import parser
 import en_core_web_lg
 from spacy.tokens.span import Span
@@ -29,7 +30,7 @@ class NER_LABELS():
 	CARDINAL = "CARDINAL" #Numerals that do not fall under another type.
 
 
-model = en_core_web_lg.load()
+model = spacy.load('en_core_web_lg')
 quotes_re = r"(\n.*[<>]).*|(\n>.*)"
 
 def extract_ner(json_obj:dict) ->  List[Tuple[str,str]]:
